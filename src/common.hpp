@@ -3,6 +3,7 @@
 
 #include <Box2D/Box2D.h>
 #include <lutok2/lutok2.hpp>
+#include <vector>
 
 using namespace lutok2;
 /*

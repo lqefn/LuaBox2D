@@ -44,7 +44,8 @@ namespace LuaBox2D {
 			if (index>=0 && index<size){
 				return (*usedArray)[index];
 			}else{
-				throw std::exception("Invalid index");
+				//throw std::exception("Invalid index");
+				throw std::exception();
 			}
 		}
 	
